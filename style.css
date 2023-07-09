@@ -1,0 +1,67 @@
+html {
+    scroll-behavior: smooth; 
+      }
+body {  
+    font-family: "Ysabeau SC", "Open Sans", "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.header{
+  .nav-list {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background-color: #213b28;
+  }
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Roboto;
+    padding: 0 20px;
+    line-height: 50px;
+}
+  .name {
+    font-size: 36px;
+    color: #213b28;
+    line-height: 0.5;
+    text-align:center
+    }
+    .profession {
+    font-size: 28px;
+    color: #213b28;
+    line-height: 0.5;
+    text-align:center
+    } 
+}
+.main{
+    .about-me {
+    background-image: url("./assets/img/image.jpg");
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 22px;
+    text-align:left;
+    padding: 40px 20px 20px 520px;
+    line-height: 2;
+    }
+}
+.footer{
+    border: 1px solid red;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
