@@ -1,12 +1,9 @@
 html {
-    scroll-behavior: smooth; 
+  scroll-behavior: smooth; 
       }
 body {  
-    font-family: "Ysabeau SC", "Open Sans", "Roboto", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  font-family: "Ysabeau SC", "Open Sans", "Roboto", sans-serif;
+}
 .header{
   .nav-list {
     font-size: 24px;
@@ -29,39 +26,81 @@ body {
     line-height: 0.5;
     text-align:center
     }
-    .profession {
+  .profession {
     font-size: 28px;
     color: #213b28;
     line-height: 0.5;
     text-align:center
     } 
 }
-.main{
-    .about-me {
-    background-image: url("./assets/img/image.jpg");
-    font-family: Roboto;
-    color: #ffffff;
-    font-size: 22px;
-    text-align:left;
-    padding: 40px 20px 20px 520px;
-    line-height: 2;
-    }
+.main_container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container_leftside{
+  width: 40%;
+  float:left;
+}
+.container_rightside{
+  width: 60%;
+  float:right;    
+}
+.summary{
+  text-align: center;
+}    
+.progress-HTML{
+  background: #f5d4d4 linear-gradient(to right, #213b28 var(--point), transparent var(--point));
+  color: #213b28;
+  text-align: center;
+  font-size: 16px;
+}
+.progress-CSS{
+  background: #f5d4d4 linear-gradient(to right, #213b28 var(--point), transparent var(--point));
+  color: #213b28;
+  text-align: center;
+  font-size: 16px;
+}
+.progress-JavaScript{
+  background: #f5d4d4 linear-gradient(to right, #213b28 var(--point), transparent var(--point));
+  color: #213b28;
+  text-align: center;
+  font-size: 16px;
+}
+.pre{
+  font-size: 16px;
+}
+h2{
+  text-align: center;
+  font-size:32px;
+}
+p{
+  text-align:center;
+  font-size: 20px;
+  margin: 20px;
+}
+.about-me{font-size: 20px;}
+li{
+  text-align:left;
+  font-size: 20px;
 }
 .footer{
-    border: 1px solid red;
+  .footer {
+    background-color: #829985;
+    padding: 20px;  
+  }
+}
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 .container {
     max-width: 1440px;
     margin: 0 auto;
   }
-
-
-
-
-
-
-
-
 * {
     box-sizing: border-box;
   }
